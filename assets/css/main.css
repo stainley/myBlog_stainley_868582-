@@ -224,6 +224,18 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-width: 767px) {
+
+    .dominican__food__section {
+        position: relative;
+        top: 0;
+    }
+
+    .container__dishes {
+        width: auto;
+        position: marker;
+        bottom: 0;
+    }
+
     .nav__menu {
         position: fixed;
         bottom: -100%;
@@ -854,13 +866,21 @@ iframe {
         margin-right: var(--mb-1);
     }
 
-   /* .container__dishes {
+    .container__dishes {
+        text-align: justify-all;
+    }
+
+    .container__dishes {
+        width: auto;
+        position: marker;
+        bottom: 0;
+
         margin-left: auto;
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: start;
         flex-direction: column;
-    }*/
+    }
 
     .nav__menu {
         padding: 2rem .25rem;
@@ -911,13 +931,17 @@ iframe {
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
-    /*.container__dishes {
+    .container__dishes {
+        width: auto;
+        position: marker;
+        bottom: 0;
+
         margin-left: auto;
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: start;
         flex-direction: column;
-    }*/
+    }
     .home__data {
         grid-column: initial;
     }
